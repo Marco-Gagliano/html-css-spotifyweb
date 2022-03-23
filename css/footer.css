@@ -156,11 +156,27 @@
   height: 6px;
   background-color: #FFFFFF;
   border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
+
+.scrollbar-pointer {
+  height: 15px;
+  width: 15px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  opacity: 0;
+}
+  
 
 .scrollbar-full:hover {
 background-color: #A7F62E;
 cursor: pointer;
+}
+
+.scrollbar-pointer:hover {
+  opacity: 1;
 }
 
 /* /SCROLL PLAYER */

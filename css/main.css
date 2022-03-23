@@ -14,11 +14,11 @@
   float: right;
   text-align: center;
   margin: 15px 20px;
+  padding: 10px 35px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #0B0B12;
-  padding: 10px 35px;
   border: 1px solid #FFFFFF;
   border-radius: 25px;
   cursor: pointer;
@@ -138,7 +138,7 @@
   color: #A7F62E;
 }
 
-/* MAIN - NAV MENU (TOP) */
+/* MAIN - /NAV MENU (TOP) */
 
 
 /* MAIN - NAV MENU (BOTTOM) */
@@ -157,6 +157,12 @@
 .download span {
   color: #75757A;
   padding-left: 10px;
+}
+
+.download span:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .line {
@@ -178,6 +184,8 @@
   font-weight: bold;
 }
 
+/* MAIN - /NAV MENU (BOTTOM) */
+
 
 /* MAIN - COVER MUSIC */
 
@@ -192,7 +200,7 @@
 /* MAIN - NAV COVER */
 
 .nav-cover {
-  margin-top: 70px;
+  margin-top: 80px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -207,8 +215,79 @@
   color: #75757A;
 }
 
+.nav-cover a:first-child {
+  
+}
+
 .nav-cover a:hover {
   color: #FFFFFF;
 }
 
-/* MAIN - /NAV MENU (BOTTOM) */
+/* MAIN - ALBUM COVERS */
+
+.album-covers {
+  margin-left: 20px;
+}
+
+.album-covers h1 {
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.album-covers p {
+  padding-bottom: 15px;
+  color: #75757A;
+}
+
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.album-space {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.image-album, .popular-artist {
+  width: 200px;
+}
+
+.image-album img {
+  width: 100%;
+}
+
+
+.description-image {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.description-image a {
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.description-image a:hover {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.description-image span {
+  color: #75757A;
+  font-weight: bold;
+}
+
+.popular-artist img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* MAIN - /ALBUM COVERS */
+
