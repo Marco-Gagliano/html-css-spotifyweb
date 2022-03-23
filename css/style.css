@@ -274,11 +274,15 @@ a {
   align-items: center;
 }
 
+
+/* COVER PLAYER */
 .cover-player img {
   width: 60px;
   height: 60px;
 }
 
+
+/* TITLE PLAYER */
 .title-player {
   flex-direction: column;
   text-transform: capitalize;
@@ -299,6 +303,9 @@ a {
   color: #75757A;
 }
 
+
+/* FAVOURITE PLAYER */
+
 .favourite-player {
   padding-left: 20px;
 }
@@ -314,17 +321,79 @@ a {
 }
 
 
-
-
 /* MUSIC PLAYER CENTER */
+
 .music-player-center {
-  background-color: aqua;
+  
   width: 45%;
+  
+}
+
+
+/* COMMAND PLAYER */
+
+.command-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #75757A;
+}
+
+.command-player i {
+  padding: 0 10px;
+}
+
+.command-player i:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#play {
+  font-size: 35px;
+  padding: 0 20px;
+  color: #FFFFFF;
+}
+
+#play:hover {
+  font-size: 38px;
+}
+
+
+/* SCROLL PLAYER */
+
+.scroll-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-player span {
+  color: #FEFEFE;
+}
+
+.scrollbar-empty {
+  width: 70%;
+  border-top: 3px solid #75757A;
+  border-bottom: 3px solid #75757A;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.scrollbar-full {
+  width: 40%;
+  margin: 0 10px;
+  background-color: #75757A;
+  border-top: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+  border-radius: 10px;
 }
 
 
 
 /* MUSIC PLAYER RIGHT */
+
 .music-player-right {
   background-color: aqua;
 }
