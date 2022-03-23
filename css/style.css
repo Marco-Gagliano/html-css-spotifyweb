@@ -1,5 +1,113 @@
+/* GENERAL PRESETS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  height: calc(100% - 90px);
+  width: 100%;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* /GENERAL PRESETS */
+
+
+/* MAIN - UPGRADE*/
+
+.upgrade {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100% - 250px);
+  height: 70px;
+  z-index: 999;
+  
+}
+
+.btn {
+  float: right;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* MAIN - NAV MENU */
+
+.nav-menu {
+  float: left;
+  width: 250px;
+  height: 100%;
+}
+
+.nav-top {
+  height: calc(100% - 70px);
+}
+
+.nav-bottom {
+  height: 70px;
+}
+
+/* MAIN - COVER MUSIC */
+
+.cover-music {
+  float: left;
+  width: calc(100% - 250px);
+  height: 100%;
+  overflow-y: auto;
+
+} 
+
+.nav-cover {
+  margin-top: 70px;
+  text-align: center;
+}
+
+
+
+/* /MAIN */
+
+
+/* FOOTER - music */
+.music-player {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/* MUSIC PLAYER LEFT */
+.music-player-left {
+  background-color: aqua;
+}
+
+
+
+/* MUSIC PLAYER CENTER */
+.music-player-center {
+  background-color: aqua;
+  width: 45%;
+}
+
+
+
+/* MUSIC PLAYER RIGHT */
+.music-player-right {
+  background-color: aqua;
+}
+
+
+/* /FOOTER */
