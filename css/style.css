@@ -43,13 +43,30 @@ a {
   width: calc(100% - 250px);
   height: 70px;
   z-index: 999;
-  
+  background-color: #0B0B12;
 }
 
-.btn {
+.upgrade-btn {
   float: right;
   text-align: center;
-  margin: 0 auto;
+  margin: 15px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #0B0B12;
+  padding: 10px 35px;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.upgrade-btn:hover {
+  font-weight: bold;
+}
+
+.upgrade-btn:active {
+  color: #A7F62E;
+  border: 1px solid #A7F62E;
 }
 
 /* MAIN - NAV MENU */
