@@ -1,0 +1,220 @@
+/* FOOTER - MUSIC PLAYER */
+.music-player {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #282828;
+}
+
+/* FOOTER - /MUSIC PLAYER */
+
+
+/* MUSIC PLAYER LEFT */
+.music-player-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.music-player-left div {
+  padding-right: 15px;
+  display: flex;
+}
+
+.cover-player, .title-player, .favourite-player {
+  align-items: center;
+}
+
+/* /MUSIC PLAYER LEFT */
+
+
+/* COVER PLAYER */
+
+.cover-player img {
+  width: 60px;
+  height: 60px;
+}
+
+/* COVER PLAYER */
+
+
+/* TITLE PLAYER */
+.title-player {
+  flex-direction: column;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title-player {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title-player .artist {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.title-player .song {
+  color: #75757A;
+}
+
+.title-player .song:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* /TITLE PLAYER */
+
+
+/* FAVOURITE PLAYER */
+
+.favourite-player {
+  padding-left: 20px;
+}
+
+.favourite-player i {
+  padding-right: 15px;
+  color: #75757A;
+}
+
+.favourite-player i:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* /FAVOURITE PLAYER */
+
+
+/* MUSIC PLAYER CENTER */
+
+.music-player-center {
+  width: 45%;
+}
+
+/* MUSIC PLAYER CENTER */
+
+
+/* COMMAND PLAYER */
+
+.command-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #75757A;
+}
+
+.command-player i {
+  padding: 0 10px;
+}
+
+.command-player i:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#play {
+  font-size: 35px;
+  padding: 0 20px;
+  color: #FFFFFF;
+}
+
+#play:hover {
+  font-size: 38px;
+}
+
+/* /COMMAND PLAYER */
+
+
+/* SCROLL PLAYER */
+
+.scroll-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-player span {
+  color: #FEFEFE;
+}
+
+.scrollbar-empty {
+  width: 550px;
+  height: 6px;
+  margin: 0 10px;
+  background-color: #75757A;
+  border-radius: 10px;
+}
+
+.scrollbar-full {
+  width: 120px;
+  height: 6px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.scrollbar-full:hover {
+background-color: #A7F62E;
+cursor: pointer;
+}
+
+/* /SCROLL PLAYER */
+
+
+/* MUSIC PLAYER RIGHT */
+
+.music-player-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* /MUSIC PLAYER RIGHT */
+
+
+/* FUNCTIONS */
+.functions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.functions i {
+  padding: 0 10px;
+  color: #75757A;
+}
+
+.functions i:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.volume-empty {
+  width: 120px;
+  height: 6px;
+  margin: 0 10px;
+  background-color: #75757A;
+  border-radius: 10px;
+}
+
+.volume-full {
+  width: 50px;
+  height: 6px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.volume-full:hover {
+  background-color: #A7F62E;
+  cursor: pointer;
+} 
+
+/* FUNCTIONS */
+
+
+/* /FOOTER */
