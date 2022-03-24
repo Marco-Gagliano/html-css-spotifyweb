@@ -3,13 +3,17 @@
   /* MAIN */
 
   .upgrade-btn {
-    font-size: 10px;
-    padding: 5px 10px;
-    float: left
+    font-size: 12px;
+    padding: 7px 12px;
+  }
+
+  .upgrade-btn:hover {
+    font-size: 14px;
   }
 
   .cover-music {
     width: calc(100% - 50px);
+    height: 100%;
   }
 
   .nav-menu {
@@ -36,10 +40,56 @@
     display: none;
   } 
 
+  
+
   /* FOOTER */
+
+  .music-player-left div {
+    padding-right: 10px;
+  }
+
+  .favourite-player {
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+
+  .scroll-player {
+    font-size: 12px;
+  }
+
+  .scrollbar-empty {
+    width: 250px;
+  }
+
+  .command-player i, #play  {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+
+  .functions {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
+  #play:hover {
+    font-size: 18px;
+  }
+
+  .volume-empty {
+    width: 70px;
+  }
+
+  .volume-full {
+    width: 30px;
+  }
+
+  .media-player-center {
+    width: 25%;
+  }
 
   .command-player i, #play {
     font-size: 14px;
+    padding: 0 5px;
   }
 
   #play:hover {
@@ -48,15 +98,49 @@
 
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 889px) {
 
   /* MAIN */
-  .cover-music {
-    width: calc(100% - 100px);
+  
+
+  /* FOOTER */
+
+  .music-player-left div {
+    padding-right: 10px;
   }
 
-  .nav-menu {
-    width: 100px;
+  .favourite-player {
+    flex-wrap: wrap;
+    padding-left: 0px;
   }
 
+  .scroll-player {
+    font-size: 12px;
+  }
+
+  .scrollbar-empty {
+    width: 250px;
+  }
+
+  .command-player i, #play  {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+
+  .functions {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
+  #play:hover {
+    font-size: 18px;
+  }
+
+  .volume-empty {
+    width: 70px;
+  }
+
+  .volume-full {
+    width: 30px;
+  }
 }
