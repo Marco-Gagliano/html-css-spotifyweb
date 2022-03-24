@@ -7,8 +7,8 @@
   width: calc(100% - 250px);
   height: 70px;
   z-index: 999;
-  background-color: #0B0B12;
-  opacity: .3;
+  background-color: rgba(8, 11, 18, .3)
+  
 }
 
 .upgrade-btn {
@@ -54,13 +54,17 @@
 
 .nav-top {
   height: calc(100% - 70px);
-  
-  overflow-y: auto;
 }
 
+
 /* LOGO MENU */
-.logo-menu {
+.logo {
   width: 70%;
+}
+
+.logo-small {
+  width: 15%;
+  display: none;
 }
 
 
@@ -99,7 +103,7 @@
   padding-top: 30px;
   color: #FFFFFF;
   text-transform: uppercase;
-  
+  height: 30%
 }
 
 .new-playlist {
@@ -124,6 +128,10 @@
   font-size: 55px;
   vertical-align: middle;
   padding-right: 10px;
+}
+
+.name-playlist nav {
+  overflow-y: auto;
 }
 
 .name-playlist p {

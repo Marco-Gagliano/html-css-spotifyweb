@@ -1,0 +1,62 @@
+@media screen and (max-width: 499px) {
+
+  /* MAIN */
+
+  .upgrade-btn {
+    font-size: 10px;
+    padding: 5px 10px;
+    float: left
+  }
+
+  .cover-music {
+    width: calc(100% - 50px);
+  }
+
+  .nav-menu {
+    width: 50px;
+  }
+  
+  .logo {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+  }
+
+  .home-menu img, .logo-small {
+    width: 70%;
+  }
+
+  .home-menu span, .nav-bottom span, .line {
+    display: none;
+  }
+
+  .playlist-menu {
+    display: none;
+  } 
+
+  /* FOOTER */
+
+  .command-player i, #play {
+    font-size: 14px;
+  }
+
+  #play:hover {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+
+  /* MAIN */
+  .cover-music {
+    width: calc(100% - 100px);
+  }
+
+  .nav-menu {
+    width: 100px;
+  }
+
+}
