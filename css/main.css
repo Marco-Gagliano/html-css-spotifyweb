@@ -8,6 +8,7 @@
   height: 70px;
   z-index: 999;
   background-color: #0B0B12;
+  opacity: .3;
 }
 
 .upgrade-btn {
@@ -98,10 +99,12 @@
   padding-top: 30px;
   color: #FFFFFF;
   text-transform: uppercase;
+  
 }
 
 .new-playlist {
   padding: 20px 0;
+  overflow-y: auto;
 }
 
 .new-playlist a {
@@ -127,7 +130,6 @@
   padding: 10px 0;
   color: #75757A;
   text-transform: capitalize;
-  overflow-y: auto;
 }
 
 .name-playlist p:hover {
@@ -215,8 +217,10 @@
   color: #75757A;
 }
 
-.nav-cover a:first-child {
-  
+.nav-bar {
+  border-bottom: 2px solid #A7F62E;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .nav-cover a:hover {
@@ -244,6 +248,7 @@
 .albums {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   text-align: center;
 }
 
@@ -254,12 +259,46 @@
 
 .image-album, .popular-artist {
   width: 200px;
+  position: relative;
 }
 
-.image-album img {
+.image-album img, .popular-artist img {
   width: 100%;
+  display: block;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #000000;
+}
+
+.image-album:hover .overlay, .popular-artist:hover .overlay {
+  opacity: .6;
+  cursor: pointer;
+}
+
+.popular-artist:hover .overlay {
+  border-radius: 50%;
+  transition: .6  s ease-in;
+}
+
+.play-album {
+  color: #FFFFFF;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .description-image {
   display: flex;
