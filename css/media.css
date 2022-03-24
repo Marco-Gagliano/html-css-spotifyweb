@@ -1,3 +1,65 @@
+@media screen and (min-width: 890px) and (max-width: 1080px) {
+
+  .album-space {
+    width: calc(100% / 4 - 20px);
+  }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 889px) {
+
+  /* MAIN */
+
+  .album-space {
+    width: calc(100% / 2 - 20px);
+  }
+
+  /* FOOTER */
+
+  .music-player-left div {
+    padding-right: 10px;
+  }
+
+  .favourite-player {
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+
+  .scroll-player {
+    font-size: 12px;
+  }
+
+  .scrollbar-empty {
+    width: 100%;
+  }
+
+  .scrollbar-full {
+    width: 40%;
+  }
+
+  .command-player i, #play  {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+
+  .functions {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
+  #play:hover {
+    font-size: 18px;
+  }
+
+  .volume-empty {
+    width: 70px;
+  }
+
+  .volume-full {
+    width: 30px;
+  }
+}
+
 @media screen and (max-width: 499px) {
 
   /* MAIN */
@@ -32,7 +94,7 @@
     width: 70%;
   }
 
-  .home-menu span, .nav-bottom span, .line {
+  .home-menu span, .nav-bottom span, .line, .logo, .add-playlist {
     display: none;
   }
 
@@ -40,9 +102,15 @@
     display: none;
   } 
 
+  .album-space {
+  width: calc(100% / 1 - 20px);
+  }
   
 
   /* FOOTER */
+  .upgrade {
+    width: calc(100% - 50px);
+  }
 
   .music-player-left div {
     padding-right: 10px;
@@ -58,7 +126,11 @@
   }
 
   .scrollbar-empty {
-    width: 250px;
+    width: 100%;
+  }
+
+  .scrollbar-full {
+    width: 40%;
   }
 
   .command-player i, #play  {
@@ -87,6 +159,10 @@
     width: 25%;
   }
 
+  .scrollbar-full {
+    width: 40%;
+  }
+
   .command-player i, #play {
     font-size: 14px;
     padding: 0 5px;
@@ -98,49 +174,3 @@
 
 }
 
-@media screen and (min-width: 500px) and (max-width: 889px) {
-
-  /* MAIN */
-  
-
-  /* FOOTER */
-
-  .music-player-left div {
-    padding-right: 10px;
-  }
-
-  .favourite-player {
-    flex-wrap: wrap;
-    padding-left: 0px;
-  }
-
-  .scroll-player {
-    font-size: 12px;
-  }
-
-  .scrollbar-empty {
-    width: 250px;
-  }
-
-  .command-player i, #play  {
-    font-size: 20px;
-    padding: 0 5px;
-  }
-
-  .functions {
-    font-size: 12px;
-    padding: 0 5px;
-  }
-
-  #play:hover {
-    font-size: 18px;
-  }
-
-  .volume-empty {
-    width: 70px;
-  }
-
-  .volume-full {
-    width: 30px;
-  }
-}
